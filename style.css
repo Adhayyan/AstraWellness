@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-box {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-box h2 {
+    margin-top: 0;
+}
+
+.task-box button {
+    margin-top: 10px;
+}
+
+.leaderboard-box {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.leaderboard-box h2 {
+    margin-top: 0;
+}
+
+.leaderboard-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.leaderboard-box li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.leaderboard-box li:last-child {
+    border-bottom: none;
+}
+
+.login-box {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box h2 {
+    margin-top: 0;
+}
+
+.login-box form {
+    margin-bottom: 20px;
+}
+
+.login-box label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.login-box button {
+    margin-top: 10px;
+}
+
+#welcome-message {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#points-message {
+    font-size: 18px;
+    margin-bottom: 10px;
+}

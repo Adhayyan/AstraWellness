@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align:center;">Task App</h1>
+        <div class="task-box">
+            <h2>Daily Task</h2>
+            <p id="daily-task-description"></p>
+            <button id="daily-task-button">Complete Daily Task</button>
+        </div>
+        <div class="task-box">
+            <h2>Physical Task</h2>
+            <p id="physical-task-description"></p>
+            <button id="physical-task-button">Complete Physical Task</button>
+        </div>
+        <div class="task-box">
+            <h2>Team Task</h2>
+            <p id="team-task-description"></p>
+            <button id="team-task-button">Complete Team Task</button>
+        </div>
+        <div class="leaderboard-box">
+            <h2>Leaderboard</h2>
+            <ul id="leaderboard-list"></ul>
+        </div>
+        <div class="login-box">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <button id="login-button">Login</button>
+                <p id="login-message"></p>
+            </form>
+            <p id="welcome-message"></p>
+            <p id="points-message"></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
